@@ -1,6 +1,6 @@
 # Understanding CNN Robustness Under Label and Input Corruption
 
-This repository contains code and results for the project **"Understanding CNN Robustness: A Comparative Study on Label and Input Corruptions"**, conducted as part of an **Artificial Intelligence** course mini-project at Seoul National University.
+This repository contains code and results for the project **"Understanding CNN Robustness: A Comparative Study on Label and Input Corruptions"**, conducted as part of the **Artificial Intelligence** course mini-project at Seoul National University.
 
 The goal of this project is to systematically analyze the effect of different types of **training-time corruption on the generalization performance of a CNN classifier** trained on the CIFAR-10 dataset.
 
