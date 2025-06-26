@@ -1,8 +1,8 @@
 # Understanding CNN Robustness Under Label and Input Corruption
 
-This repository contains code and results for the project **"Understanding CNN Robustness: A Comparative Study on Label and Input Corruptions"**, conducted as part of an AI course mini-project at Seoul National University.
+This repository contains code and results for the project **"Understanding CNN Robustness: A Comparative Study on Label and Input Corruptions"**, conducted as part of an **Artificial Intelligence** course mini-project at Seoul National University.
 
-The goal of this project is to systematically analyze the effect of different types of training-time corruption on the generalization performance of a CNN classifier trained on the CIFAR-10 dataset.
+The goal of this project is to systematically analyze the effect of different types of **training-time corruption on the generalization performance of a CNN classifier** trained on the CIFAR-10 dataset.
 
 ## 📁 Repository Structure
 
@@ -10,7 +10,7 @@ The goal of this project is to systematically analyze the effect of different ty
 .
 ├── Baseline/
 │   ├── baseline.ipynb
-│   └── Figures/              # training curve & confusion matrix (2 images)
+│   └── Figures/              # Training curve & confusion matrix (2 images)
 ├── Random Label Shuffle/
 │   ├── random_label_shuffle.ipynb
 │   └── Figures/
@@ -24,10 +24,10 @@ The goal of this project is to systematically analyze the effect of different ty
 └── README.md
 ```
 
-Each folder contains:
+Each directory includes:
 
-- An `.ipynb` notebook that runs the experiment.
-- A `Figures/` directory that stores figures such as training/test loss curves and confusion matrices.
+- A Jupyter notebook (`.ipynb`) that runs the corresponding experiments.
+- A `Figures/` folder that stores the resulting plots from both clean and corrupted input settings.
 
 ## 🧪 Experiments Overview
 
@@ -56,9 +56,9 @@ All models were trained from scratch using identical hyperparameters (100 epochs
 | Random Label Shuffle   | 10.38          | 9.58          |
 | Input Perturbation     | 96.14          | 90.32         |
 
-Input augmentation can act as a regularizer and even improve generalization, while label corruption drastically harms performance.
+- **While label corruption severely degrades generalization, input perturbation acts as an effective regularizer, even improving test performance over the baseline.**
 
 ## 📌 Notes
 
-- All experiments were conducted using a single NVIDIA A100 GPU via Google Colab.
+- All experiments were run on NVIDIA A100 GPU (Colab).
 - The model architecture is based on a simplified VGG16 variant.
