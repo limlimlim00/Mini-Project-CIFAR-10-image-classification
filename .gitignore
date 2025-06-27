@@ -1,3 +1,7 @@
 # Ignore Mac OS system files
 .DS_Store
 **/.DS_Store
+
+vgg16_reference.py
+
+py files/
